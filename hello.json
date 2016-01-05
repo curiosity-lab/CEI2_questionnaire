@@ -1,0 +1,25 @@
+{"questionnaire":
+{ "q_in_page": "10",
+  "qu_title": "questionnaire",
+  "qu_description": "rate the statements below for how accurately they reflect the way you generally feel and behave. Do not rate what you think you should do, or wish you do, or things you no longer do.Please be as honest as possible.",
+  "ques": {
+    "q1": "I actively seek as much information as I can in new situations.",
+    "q2": "I am the type of person who really enjoys the uncertainty of everyday life.",
+    "q3": "I am at my best when doing something that is complex or challenging.",
+    "q4": "Everywhere I go, I am out looking for new things or experiences.",
+    "q5": "I view challenging situations as an opportunity to grow and learn.",
+    "q6": "I like to do things that are a little frightening.",
+    "q7": "I am always looking for experiences that challenge how I think about myself and the world.",
+    "q8": "I prefer jobs that are excitingly unpredictable.",
+    "q9": "I frequently seek out opportunities to challenge myself and grow as a person.",
+    "q10": "I am the kind of person who embraces unfamiliar people, events, and places.x`" },
+  "ans": {
+    "ans1": "very slightly or not at all",
+    "ans2": "a little",
+    "ans3": "moderately",
+    "ans4": "quite a bit",
+    "ans5": "extremely"},
+  "prev_button": "Previous",
+  "next_button": "Continue"
+}
+}

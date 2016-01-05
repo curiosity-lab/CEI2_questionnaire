@@ -1,6 +1,6 @@
 {"questionnaire":
 { "q_in_page": "10",
-  "qu_title": "questionnaire",
+  "qu_title": "שאלון",
   "qu_description": "rate the statements below for how accurately they reflect the way you generally feel and behave. Do not rate what you think you should do, or wish you do, or things you no longer do.Please be as honest as possible.",
   "ques": {
     "q1": "I actively seek as much information as I can in new situations.",

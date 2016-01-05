@@ -12,6 +12,7 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.graphics import Color, Rectangle
 from kivy.uix.image import AsyncImage
 from functools import partial
+from kivy.storage.jsonstore import JsonStore
 
 
 class AnswerButton(ToggleButton):
@@ -33,11 +34,14 @@ class QuestionsForm(BoxLayout):
 
         dict = {'q_in_page':[], 'qu_title': "", 'qu_description': "", 'ques': {},
                  'ans': {}, 'next_button': "", 'prev_button': ""}
-        f = open('try.py', 'r', encoding='utf-8')
+        #f = open('try.py', 'r', encoding='utf-8')
         self.answers={}
         # txt = f.read()
         txt = "קרן"
 
+        store = JsonStore('hello.json')
+        self.add_widget(Label(text=txt[::-1], font_name="DejaVuSans.ttf"))
+        self.add_widget(Label(text=store.get("questionnaire")["qu_title"][::-1], font_name="DejaVuSans.ttf"))
     #     tree = ET.fromstring(txt)
     #
     #     for child in tree:
